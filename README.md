@@ -1,14 +1,14 @@
 # Banking / Transaction Analysis System
 
-A SQL portfolio project simulating a bank's internal analytics pipeline — built on a synthetic dataset of 55,000+ transactions across 1,500 customers — to demonstrate fraud detection, customer segmentation, and credit/loan risk reporting using advanced SQL.
+A SQL portfolio project simulating a bank's internal analytics pipeline built on a synthetic dataset of 55,000+ transactions across 1,500 customers to demonstrate fraud detection, customer segmentation, and credit/loan risk reporting using advanced SQL.
 
 ## What this project does
 
-- **Fraud detection pipeline** — flags statistically anomalous transactions (3-sigma outliers), odd-hour purchases, and rapid-fire transaction bursts using window functions and CTEs.
-- **Customer segmentation** — buckets customers by income tier, region, and transaction frequency/recency (RFM-style) using `GROUP BY` and `CASE` logic.
-- **Business reporting** — loan default rates by segment, credit utilization with risk tiers, and monthly/regional cash flow trends.
+- **Fraud detection pipeline**  flags statistically anomalous transactions (3-sigma outliers), odd-hour purchases, and rapid-fire transaction bursts using window functions and CTEs.
+- **Customer segmentation**  buckets customers by income tier, region, and transaction frequency/recency (RFM-style) using `GROUP BY` and `CASE` logic.
+- **Business reporting**  loan default rates by segment, credit utilization with risk tiers, and monthly/regional cash flow trends.
 
-All analysis is built with **window functions, CTEs, and subqueries** — no stored procedures or external tools required, just SQL.
+All analysis is built with **window functions, CTEs, and subqueries**  no stored procedures or external tools required, just SQL.
 
 ## Tech stack
 
